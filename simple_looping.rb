@@ -15,6 +15,7 @@ def loop_iterator(number_of_times)
   loop do
     if counter != number_of_times
       puts phrase
+      counter += 1
     else
       break
     end
