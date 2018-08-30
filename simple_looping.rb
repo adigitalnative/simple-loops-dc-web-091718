@@ -62,6 +62,8 @@ def for_iterator(number_of_times)
   
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
-  range =
+  range = Range.new(0,number_of_times)
+  
+  
 end
 
